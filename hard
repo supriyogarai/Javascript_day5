@@ -1,0 +1,28 @@
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+a=ages.sort()
+console.log(a)
+console.log( a[0])
+console.log( a[a.length - 1])
+m1=a[(a.length/2)-1]
+m2=a[a.length/2]
+median=(m1+m2)/2
+console.log(median)
+range = a[a.length - 1] -  a[0]
+console.log(range)
+
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+    ]
+    console.log(countries.slice(0,5))
+    
+    console.log(countries[(countries.length)/2])
