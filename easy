@@ -1,0 +1,45 @@
+const arr = []
+
+const nos = [0, 3.14, 9.81, 37, 98.6, 100]
+
+console.log('Number of numbers:', nos.length)
+
+console.log('1st Number :', nos[0])
+console.log('Middle Number :',nos[nos.length/2])
+console.log('Last Number :', nos[nos.length - 1])
+
+const mixedDataTypes = [
+    'Asabeneh',
+    250,
+    true,
+    11.22,
+    { country: 'Finland', city: 'Helsinki' },
+    { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
+    ] 
+console.log('Number of data types:', mixedDataTypes.length)
+
+let itCompanies = ['Facebook', 'Google', 'Microsoft',' Apple','IBM', 'Oracle', 'Amazon']
+
+console.log(itCompanies)
+
+console.log('Number of companies:', itCompanies.length)
+
+console.log('1st company :', nos[0])
+console.log('Middle company :',nos[nos.length/2])
+console.log('Last company :', nos[nos.length - 1])
+
+console.log(itCompanies[0])
+console.log(itCompanies[1])
+console.log(itCompanies[3])
+console.log(itCompanies[3])
+console.log(itCompanies[4])
+console.log(itCompanies[5])
+
+console.log(itCompanies[0].toUpperCase())
+console.log(itCompanies[1].toUpperCase())
+console.log(itCompanies[3].toUpperCase())
+console.log(itCompanies[3].toUpperCase())
+console.log(itCompanies[4].toUpperCase())
+console.log(itCompanies[5].toUpperCase())
+
+console.log(itCompanies.includes('IBM'))
